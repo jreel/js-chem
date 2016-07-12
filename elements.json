@@ -648,7 +648,7 @@
         "electronconfiguration": "[Kr] 5s2 4d10 5p6"
     },
     "Cs": {
-        "name": "caesium",
+        "name": "cesium",
         "symbol": "Cs",
         "type": "alkali metal",
         "occurrence": "primordial",
@@ -672,7 +672,7 @@
         "electronconfiguration": "[Xe] 6s2"
     },
     "La": {
-        "name": "Lanthanum",
+        "name": "lanthanum",
         "symbol": "La",
         "type": "lanthanide",
         "occurrence": "primordial",
@@ -1236,7 +1236,7 @@
         "electronconfiguration": ""
     },
     "Rf": {
-        "name": "rutherforium",
+        "name": "rutherfordium",
         "symbol": "Rf",
         "type": "transition metal",
         "occurrence": "synthetic",
