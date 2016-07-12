@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <title>Testing</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="chemform.js" defer="defer"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+
+    // jquery to the rescue!
+    $("body").children().each(function() {
+
+        var ihtml = $(this).html();
+        // console.log("This: " + this + " has html: " + ihtml);
+
+        var newhtml = chemform(ihtml);
+        // console.log("New html: " + newhtml);
+
+        $(this).html(newhtml);
+
+    }
+    );
+  });
+</script>
+</head>
+<body>
+  <p>Testing my chemform function.</p>
+
+<p>Here is some text where I am talking about compounds such as CO2, H2O, H2SO4.</p>
+
+<p>Ba(NO3)2 (aq) + Na2SO4 (aq) ------> 2NaNO3 (aq) + BaSO4 (s)</p>
+
+  <p>HCl (g) + H2O(l) <===> H3O(+) (aq) + Cl(-) (aq)</p>
+
+<p>In this paragraph I mention polyatomic ions, such as [NH4]+, [NO3]-, CO3(2-). Also, we could think about
+   the first two written together like so:</p>
+<p>[NH4]+ [NO3]- or NH4(+) NO3(-).</p>
+
+<p>What about elements such as Au(0)?</p>
+<p>Let's try to break it: what if I put in some numbers in the text, like mentioning 10 moles of whatever?</p>
+
+<p>Or 2.5 moles?</p>
+
+<p>What about hyphens with numbers? This section will also test deep nesting and formatting.</p>
+<ul>
+  <li>The reactions were all conducted at 80-100&deg; for 1-2 hours.</li>
+  <li>The name of this compound is <strong><em>2-methylcyclohexanone</em></strong>.</li>
+  <li>A different compound would be <em>(2R,3S)</em>-1,2,3-butanetriol. Can you draw it?</li>
+</ul>
+
+</body>
+</html>
