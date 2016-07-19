@@ -168,7 +168,7 @@ var Elements = {
         "color": "#999999"
     },
     "Al": {
-        "name": "aluminium",
+        "name": "aluminum",
         "symbol": "Al",
         "type": "post-transition metal",
         "occurrence": "primordial",
@@ -756,7 +756,7 @@ var Elements = {
         "color": "#999999"
     },
     "Cs": {
-        "name": "caesium",
+        "name": "cesium",
         "symbol": "Cs",
         "type": "alkali metal",
         "occurrence": "primordial",
@@ -784,7 +784,7 @@ var Elements = {
         "color": "#999999"
     },
     "La": {
-        "name": "Lanthanum",
+        "name": "lanthanum",
         "symbol": "La",
         "type": "lanthanide",
         "occurrence": "primordial",
@@ -1442,7 +1442,7 @@ var Elements = {
         "color": "#999999"
     },
     "Rf": {
-        "name": "rutherforium",
+        "name": "rutherfordium",
         "symbol": "Rf",
         "type": "transition metal",
         "occurrence": "synthetic",
