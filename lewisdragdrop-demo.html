@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LewisDragDrop.js Demo</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="elements.js"></script>
+    <script src="lewisdragdrop.js" defer="defer"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            initSVG();
+        });
+    </script>
+    <style>
+        .draggable{
+            cursor: move;
+        }
+    </style>
+</head>
+<body onmouseup="endMove()">
+
+<svg id="mySVG" width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     style="border: solid 1px black" onmousedown="startMove(evt)" onmouseup="endMove()">
+
+</svg>
+</body>
+</html>

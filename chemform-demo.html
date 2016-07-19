@@ -3,7 +3,7 @@
 <head>
 
   <meta charset="UTF-8">
-  <title>Testing</title>
+  <title>ChemForm.js Demo</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="chemform.js" defer="defer"></script>
 
@@ -14,13 +14,8 @@
     $("body").children().each(function() {
 
         var ihtml = $(this).html();
-        // console.log("This: " + this + " has html: " + ihtml);
-
         var newhtml = chemform(ihtml);
-        // console.log("New html: " + newhtml);
-
         $(this).html(newhtml);
-
     }
     );
   });

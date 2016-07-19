@@ -1,4 +1,4 @@
-{
+var Elements = {
     "H": {
         "name": "hydrogen",
         "symbol ": "H",
@@ -9,7 +9,9 @@
         "period": "1",
         "group": "1",
         "electronegativity": "2.20",
-        "electronconfiguration": "1s1"
+        "electronconfiguration": "1s1",
+        "valence": "1",
+        "color": "#DDDDCC"
     },
     "He": {
         "name": "helium",
@@ -21,7 +23,9 @@
         "period": "1",
         "group": "18",
         "electronegativity": "",
-        "electronconfiguration": "1s2"
+        "electronconfiguration": "1s2",
+        "valence": "2",
+        "color": "#999999"
     },
     "Li": {
         "name": "lithium",
@@ -33,7 +37,9 @@
         "period": "2",
         "group": "1",
         "electronegativity": "0.98",
-        "electronconfiguration": "[He] 2s1"
+        "electronconfiguration": "[He] 2s1",
+        "valence": "1",
+        "color": "#999999"
     },
     "Be": {
         "name": "beryllium",
@@ -45,7 +51,9 @@
         "period": "2",
         "group": "2",
         "electronegativity": "1.57",
-        "electronconfiguration": "[He] 2s2"
+        "electronconfiguration": "[He] 2s2",
+        "valence": "2",
+        "color": "#999999"
     },
     "B": {
         "name": "boron",
@@ -57,7 +65,9 @@
         "period": "2",
         "group": "13",
         "electronegativity": "2.04",
-        "electronconfiguration": "[He] 2s2 2p1"
+        "electronconfiguration": "[He] 2s2 2p1",
+        "valence": "3",
+        "color": "#999999"
     },
     "C": {
         "name": "carbon",
@@ -69,7 +79,9 @@
         "period": "2",
         "group": "14",
         "electronegativity": "2.55",
-        "electronconfiguration": "[He] 2s2 2p2"
+        "electronconfiguration": "[He] 2s2 2p2",
+        "valence": "4",
+        "color": "#444444"
     },
     "N": {
         "name": "nitrogen",
@@ -81,7 +93,9 @@
         "period": "2",
         "group": "15",
         "electronegativity": "3.04",
-        "electronconfiguration": "[He] 2s2 2p3"
+        "electronconfiguration": "[He] 2s2 2p3",
+        "valence": "5",
+        "color": "#0000FF"
     },
     "O": {
         "name": "oxygen",
@@ -93,7 +107,9 @@
         "period": "2",
         "group": "16",
         "electronegativity": "3.44",
-        "electronconfiguration": "[He] 2s2 2p4"
+        "electronconfiguration": "[He] 2s2 2p4",
+        "valence": "6",
+        "color": "#FF0000"
     },
     "F": {
         "name": "fluorine",
@@ -105,7 +121,9 @@
         "period": "2",
         "group": "17",
         "electronegativity": "3.98",
-        "electronconfiguration": "[He] 2s2 2p5"
+        "electronconfiguration": "[He] 2s2 2p5",
+        "valence": "7",
+        "color": "#99FF00"
     },
     "Ne": {
         "name": "neon",
@@ -117,7 +135,9 @@
         "period": "2",
         "group": "18",
         "electronegativity": "",
-        "electronconfiguration": "[He] 2s2 2p6"
+        "electronconfiguration": "[He] 2s2 2p6",
+        "valence": "8",
+        "color": "#999999"
     },
     "Na": {
         "name": "sodium",
@@ -129,7 +149,9 @@
         "period": "3",
         "group": "1",
         "electronegativity": "0.93",
-        "electronconfiguration": "[Ne] 3s1"
+        "electronconfiguration": "[Ne] 3s1",
+        "valence": "1",
+        "color": "#999999"
     },
     "Mg": {
         "name": "magnesium",
@@ -141,7 +163,9 @@
         "period": "3",
         "group": "2",
         "electronegativity": "1.31",
-        "electronconfiguration": "[Ne] 3s2"
+        "electronconfiguration": "[Ne] 3s2",
+        "valence": "2",
+        "color": "#999999"
     },
     "Al": {
         "name": "aluminium",
@@ -153,7 +177,9 @@
         "period": "3",
         "group": "13",
         "electronegativity": "1.61",
-        "electronconfiguration": "[Ne] 3s2 3p1"
+        "electronconfiguration": "[Ne] 3s2 3p1",
+        "valence": "3",
+        "color": "#999999"
     },
     "Si": {
         "name": "silicon",
@@ -165,7 +191,9 @@
         "period": "3",
         "group": "14",
         "electronegativity": "1.90",
-        "electronconfiguration": "[Ne] 3s2 3p2"
+        "electronconfiguration": "[Ne] 3s2 3p2",
+        "valence": "4",
+        "color": "#999999"
     },
     "P": {
         "name": "phosphorus",
@@ -177,7 +205,9 @@
         "period": "3",
         "group": "15",
         "electronegativity": "2.19",
-        "electronconfiguration": "[Ne] 3s2 3p3"
+        "electronconfiguration": "[Ne] 3s2 3p3",
+        "valence": "5",
+        "color": "#999999"
     },
     "S": {
         "name": "sulfur",
@@ -189,7 +219,9 @@
         "period": "3",
         "group": "16",
         "electronegativity": "2.58",
-        "electronconfiguration": "[Ne] 3s2 3p4"
+        "electronconfiguration": "[Ne] 3s2 3p4",
+        "valence": "6",
+        "color": "#CCCC00"
     },
     "Cl": {
         "name": "chlorine",
@@ -201,7 +233,9 @@
         "period": "3",
         "group": "17",
         "electronegativity": "3.16",
-        "electronconfiguration": "[Ne] 3s2 3p5"
+        "electronconfiguration": "[Ne] 3s2 3p5",
+        "valence": "7",
+        "color": "#339900"
     },
     "Ar": {
         "name": "argon",
@@ -213,7 +247,9 @@
         "period": "3",
         "group": "18",
         "electronegativity": "",
-        "electronconfiguration": "[Ne] 3s2 3p6"
+        "electronconfiguration": "[Ne] 3s2 3p6",
+        "valence": "8",
+        "color": "#999999"
     },
     "K": {
         "name": "potassium",
@@ -225,7 +261,9 @@
         "period": "4",
         "group": "1",
         "electronegativity": "0.82",
-        "electronconfiguration": "[Ar] 4s1"
+        "electronconfiguration": "[Ar] 4s1",
+        "valence": "1",
+        "color": "#999999"
     },
     "Ca": {
         "name": "calcium",
@@ -237,7 +275,9 @@
         "period": "4",
         "group": "2",
         "electronegativity": "1.00",
-        "electronconfiguration": "[Ar] 4s2"
+        "electronconfiguration": "[Ar] 4s2",
+        "valence": "2",
+        "color": "#999999"
     },
     "Sc": {
         "name": "scandium",
@@ -249,7 +289,9 @@
         "period": "4",
         "group": "3",
         "electronegativity": "1.36",
-        "electronconfiguration": "[Ar] 4s2 3d1"
+        "electronconfiguration": "[Ar] 4s2 3d1",
+        "valence": "",
+        "color": "#999999"
     },
     "Ti": {
         "name": "titanium",
@@ -261,7 +303,9 @@
         "period": "4",
         "group": "4",
         "electronegativity": "1.54",
-        "electronconfiguration": "[Ar] 4s2 3d2"
+        "electronconfiguration": "[Ar] 4s2 3d2",
+        "valence": "",
+        "color": "#999999"
     },
     "V": {
         "name": "vandium",
@@ -273,7 +317,9 @@
         "period": "4",
         "group": "5",
         "electronegativity": "1.63",
-        "electronconfiguration": "[Ar] 4s2 3d3"
+        "electronconfiguration": "[Ar] 4s2 3d3",
+        "valence": "",
+        "color": "#999999"
     },
     "Cr": {
         "name": "chromium",
@@ -285,7 +331,9 @@
         "period": "4",
         "group": "6",
         "electronegativity": "1.66",
-        "electronconfiguration": "[Ar] 4s1 3d5"
+        "electronconfiguration": "[Ar] 4s1 3d5",
+        "valence": "",
+        "color": "#999999"
     },
     "Mn": {
         "name": "manganese",
@@ -297,7 +345,9 @@
         "period": "4",
         "group": "7",
         "electronegativity": "1.55",
-        "electronconfiguration": "[Ar] 4s2 3d5"
+        "electronconfiguration": "[Ar] 4s2 3d5",
+        "valence": "",
+        "color": "#999999"
     },
     "Fe": {
         "name": "iron",
@@ -309,7 +359,9 @@
         "period": "4",
         "group": "8",
         "electronegativity": "1.83",
-        "electronconfiguration": "[Ar] 4s2 3d6"
+        "electronconfiguration": "[Ar] 4s2 3d6",
+        "valence": "",
+        "color": "#999999"
     },
     "Co": {
         "name": "cobalt",
@@ -321,7 +373,9 @@
         "period": "4",
         "group": "9",
         "electronegativity": "1.88",
-        "electronconfiguration": "[Ar] 4s2 3d7"
+        "electronconfiguration": "[Ar] 4s2 3d7",
+        "valence": "",
+        "color": "#999999"
     },
     "Ni": {
         "name": "nickel",
@@ -333,7 +387,9 @@
         "period": "4",
         "group": "10",
         "electronegativity": "1.91",
-        "electronconfiguration": "[Ar] 4s2 3d8"
+        "electronconfiguration": "[Ar] 4s2 3d8",
+        "valence": "",
+        "color": "#999999"
     },
     "Cu": {
         "name": "copper",
@@ -345,7 +401,9 @@
         "period": "4",
         "group": "11",
         "electronegativity": "1.90",
-        "electronconfiguration": "[Ar] 4s1 3d10"
+        "electronconfiguration": "[Ar] 4s1 3d10",
+        "valence": "",
+        "color": "#999999"
     },
     "Zn": {
         "name": "zinc",
@@ -357,7 +415,9 @@
         "period": "4",
         "group": "12",
         "electronegativity": "1.65",
-        "electronconfiguration": "[Ar] 4s2 3d10"
+        "electronconfiguration": "[Ar] 4s2 3d10",
+        "valence": "",
+        "color": "#999999"
     },
     "Ga": {
         "name": "gallium",
@@ -369,7 +429,9 @@
         "period": "4",
         "group": "13",
         "electronegativity": "1.81",
-        "electronconfiguration": "[Ar] 4s2 3d10 4p1"
+        "electronconfiguration": "[Ar] 4s2 3d10 4p1",
+        "valence": "",
+        "color": "#999999"
     },
     "Ge": {
         "name": "germanium",
@@ -381,7 +443,9 @@
         "period": "4",
         "group": "14",
         "electronegativity": "2.01",
-        "electronconfiguration": "[Ar] 4s2 3d10 4p2"
+        "electronconfiguration": "[Ar] 4s2 3d10 4p2",
+        "valence": "",
+        "color": "#999999"
     },
     "As": {
         "name": "arsenic",
@@ -393,7 +457,9 @@
         "period": "4",
         "group": "15",
         "electronegativity": "2.18",
-        "electronconfiguration": "[Ar] 4s2 3d10 4p3"
+        "electronconfiguration": "[Ar] 4s2 3d10 4p3",
+        "valence": "",
+        "color": "#999999"
     },
     "Se": {
         "name": "selenium",
@@ -405,7 +471,9 @@
         "period": "4",
         "group": "16",
         "electronegativity": "2.55",
-        "electronconfiguration": "[Ar] 4s2 3d10 4p4"
+        "electronconfiguration": "[Ar] 4s2 3d10 4p4",
+        "valence": "",
+        "color": "#999999"
     },
     "Br": {
         "name": "bromine",
@@ -417,7 +485,9 @@
         "period": "4",
         "group": "17",
         "electronegativity": "2.96",
-        "electronconfiguration": "[Ar] 4s2 3d10 4p5"
+        "electronconfiguration": "[Ar] 4s2 3d10 4p5",
+        "valence": "7",
+        "color": "#553300"
     },
     "Kr": {
         "name": "krypton",
@@ -429,7 +499,9 @@
         "period": "4",
         "group": "18",
         "electronegativity": "3.00",
-        "electronconfiguration": "[Ar] 4s2 3d10 4p6"
+        "electronconfiguration": "[Ar] 4s2 3d10 4p6",
+        "valence": "8",
+        "color": "#999999"
     },
     "Rb": {
         "name": "rubidium",
@@ -441,7 +513,9 @@
         "period": "5",
         "group": "1",
         "electronegativity": "0.82",
-        "electronconfiguration": "[Kr] 5s1"
+        "electronconfiguration": "[Kr] 5s1",
+        "valence": "",
+        "color": "#999999"
     },
     "Sr": {
         "name": "strontium",
@@ -453,7 +527,9 @@
         "period": "5",
         "group": "2",
         "electronegativity": "0.95",
-        "electronconfiguration": "[Kr] 5s2"
+        "electronconfiguration": "[Kr] 5s2",
+        "valence": "",
+        "color": "#999999"
     },
     "Y": {
         "name": "yttrium",
@@ -465,7 +541,9 @@
         "period": "5",
         "group": "3",
         "electronegativity": "1.22",
-        "electronconfiguration": "[Kr] 5s2 4d1"
+        "electronconfiguration": "[Kr] 5s2 4d1",
+        "valence": "",
+        "color": "#999999"
     },
     "Zr": {
         "name": "zirconium",
@@ -477,7 +555,9 @@
         "period": "5",
         "group": "4",
         "electronegativity": "1.33",
-        "electronconfiguration": "[Kr] 5s2 4d2"
+        "electronconfiguration": "[Kr] 5s2 4d2",
+        "valence": "",
+        "color": "#999999"
     },
     "Nb": {
         "name": "niobium",
@@ -489,7 +569,9 @@
         "period": "5",
         "group": "5",
         "electronegativity": "1.6",
-        "electronconfiguration": "[Kr] 5s1 4d4"
+        "electronconfiguration": "[Kr] 5s1 4d4",
+        "valence": "",
+        "color": "#999999"
     },
     "Mo": {
         "name": "molybdenum",
@@ -501,7 +583,9 @@
         "period": "5",
         "group": "6",
         "electronegativity": "2.16",
-        "electronconfiguration": "[Kr] 5s1 4d5"
+        "electronconfiguration": "[Kr] 5s1 4d5",
+        "valence": "",
+        "color": "#999999"
     },
     "Tc": {
         "name": "technetium",
@@ -513,7 +597,9 @@
         "period": "5",
         "group": "7",
         "electronegativity": "1.9",
-        "electronconfiguration": "[Kr] 5s2 4d5"
+        "electronconfiguration": "[Kr] 5s2 4d5",
+        "valence": "",
+        "color": "#999999"
     },
     "Ru": {
         "name": "ruthenium",
@@ -525,7 +611,9 @@
         "period": "5",
         "group": "8",
         "electronegativity": "2.2",
-        "electronconfiguration": "[Kr] 5s1 4d7"
+        "electronconfiguration": "[Kr] 5s1 4d7",
+        "valence": "",
+        "color": "#999999"
     },
     "Rh": {
         "name": "rhodium",
@@ -537,7 +625,9 @@
         "period": "5",
         "group": "9",
         "electronegativity": "2.28",
-        "electronconfiguration": "[Kr] 5s1 4d8"
+        "electronconfiguration": "[Kr] 5s1 4d8",
+        "valence": "",
+        "color": "#999999"
     },
     "Pd": {
         "name": "palladium",
@@ -549,7 +639,9 @@
         "period": "5",
         "group": "10",
         "electronegativity": "2.20",
-        "electronconfiguration": "[Kr] 5s0 4d10"
+        "electronconfiguration": "[Kr] 5s0 4d10",
+        "valence": "",
+        "color": "#999999"
     },
     "Ag": {
         "name": "silver",
@@ -561,7 +653,9 @@
         "period": "5",
         "group": "11",
         "electronegativity": "1.93",
-        "electronconfiguration": "[Kr] 5s1 4d10"
+        "electronconfiguration": "[Kr] 5s1 4d10",
+        "valence": "",
+        "color": "#999999"
     },
     "Cd": {
         "name": "cadmium",
@@ -573,7 +667,9 @@
         "period": "5",
         "group": "12",
         "electronegativity": "1.69",
-        "electronconfiguration": "[Kr] 5s2 4d10"
+        "electronconfiguration": "[Kr] 5s2 4d10",
+        "valence": "",
+        "color": "#999999"
     },
     "In": {
         "name": "indium",
@@ -585,7 +681,9 @@
         "period": "5",
         "group": "13",
         "electronegativity": "1.78",
-        "electronconfiguration": "[Kr] 5s2 4d10 5p1"
+        "electronconfiguration": "[Kr] 5s2 4d10 5p1",
+        "valence": "",
+        "color": "#999999"
     },
     "Sn": {
         "name": "tin",
@@ -597,7 +695,9 @@
         "period": "5",
         "group": "14",
         "electronegativity": "1.96",
-        "electronconfiguration": "[Kr] 5s2 4d10 5p2"
+        "electronconfiguration": "[Kr] 5s2 4d10 5p2",
+        "valence": "",
+        "color": "#999999"
     },
     "Sb": {
         "name": "antimony",
@@ -609,7 +709,9 @@
         "period": "5",
         "group": "15",
         "electronegativity": "2.05",
-        "electronconfiguration": "[Kr] 5s2 4d10 5p3"
+        "electronconfiguration": "[Kr] 5s2 4d10 5p3",
+        "valence": "",
+        "color": "#999999"
     },
     "Te": {
         "name": "tellurium",
@@ -621,7 +723,9 @@
         "period": "5",
         "group": "16",
         "electronegativity": "2.1",
-        "electronconfiguration": "[Kr] 5s2 4d10 5p4"
+        "electronconfiguration": "[Kr] 5s2 4d10 5p4",
+        "valence": "",
+        "color": "#999999"
     },
     "I": {
         "name": "iodine",
@@ -633,7 +737,9 @@
         "period": "5",
         "group": "17",
         "electronegativity": "2.66",
-        "electronconfiguration": "[Kr] 5s2 4d10 5p5"
+        "electronconfiguration": "[Kr] 5s2 4d10 5p5",
+        "valence": "7",
+        "color": "#330033"
     },
     "Xe": {
         "name": "xenon",
@@ -645,7 +751,9 @@
         "period": "5",
         "group": "18",
         "electronegativity": "2.6",
-        "electronconfiguration": "[Kr] 5s2 4d10 5p6"
+        "electronconfiguration": "[Kr] 5s2 4d10 5p6",
+        "valence": "",
+        "color": "#999999"
     },
     "Cs": {
         "name": "caesium",
@@ -657,7 +765,9 @@
         "period": "6",
         "group": "1",
         "electronegativity": "0.79",
-        "electronconfiguration": "[Xe] 6s1"
+        "electronconfiguration": "[Xe] 6s1",
+        "valence": "",
+        "color": "#999999"
     },
     "Ba": {
         "name": "barium",
@@ -669,7 +779,9 @@
         "period": "6",
         "group": "2",
         "electronegativity": "0.89",
-        "electronconfiguration": "[Xe] 6s2"
+        "electronconfiguration": "[Xe] 6s2",
+        "valence": "",
+        "color": "#999999"
     },
     "La": {
         "name": "Lanthanum",
@@ -681,7 +793,9 @@
         "period": "6",
         "group": "",
         "electronegativity": "1.10",
-        "electronconfiguration": "[Xe] 6s2 5d1"
+        "electronconfiguration": "[Xe] 6s2 5d1",
+        "valence": "",
+        "color": "#999999"
     },
     "Ce": {
         "name": "cerium",
@@ -693,7 +807,9 @@
         "period": "6",
         "group": "",
         "electronegativity": "1.12",
-        "electronconfiguration": "[Xe] 6s2 4f1 5d1"
+        "electronconfiguration": "[Xe] 6s2 4f1 5d1",
+        "valence": "",
+        "color": "#999999"
     },
     "Pr": {
         "name": "praseodymium",
@@ -705,7 +821,9 @@
         "period": "6",
         "group": "",
         "electronegativity": "1.13",
-        "electronconfiguration": "[Xe] 6s2 4f3"
+        "electronconfiguration": "[Xe] 6s2 4f3",
+        "valence": "",
+        "color": "#999999"
     },
     "Nd": {
         "name": "neodymium",
@@ -717,7 +835,9 @@
         "period": "6",
         "group": "",
         "electronegativity": "1.14",
-        "electronconfiguration": "[Xe] 6s2 4f4"
+        "electronconfiguration": "[Xe] 6s2 4f4",
+        "valence": "",
+        "color": "#999999"
     },
     "Pm": {
         "name": "promethium",
@@ -729,7 +849,9 @@
         "period": "6",
         "group": "",
         "electronegativity": "",
-        "electronconfiguration": "[Xe] 6s2 4f5"
+        "electronconfiguration": "[Xe] 6s2 4f5",
+        "valence": "",
+        "color": "#999999"
     },
     "Sm": {
         "name": "samarium",
@@ -741,7 +863,9 @@
         "period": "6",
         "group": "",
         "electronegativity": "1.17",
-        "electronconfiguration": "[Xe] 6s2 4f6"
+        "electronconfiguration": "[Xe] 6s2 4f6",
+        "valence": "",
+        "color": "#999999"
     },
     "Eu": {
         "name": "europium",
@@ -753,7 +877,9 @@
         "period": "6",
         "group": "",
         "electronegativity": "",
-        "electronconfiguration": "[Xe] 6s2 4f7"
+        "electronconfiguration": "[Xe] 6s2 4f7",
+        "valence": "",
+        "color": "#999999"
     },
     "Gd": {
         "name": "gadolinium",
@@ -765,7 +891,9 @@
         "period": "6",
         "group": "",
         "electronegativity": "1.20",
-        "electronconfiguration": "[Xe] 6s2 4f7 5d1"
+        "electronconfiguration": "[Xe] 6s2 4f7 5d1",
+        "valence": "",
+        "color": "#999999"
     },
     "Tb": {
         "name": "terbium",
@@ -777,7 +905,9 @@
         "period": "6",
         "group": "",
         "electronegativity": "",
-        "electronconfiguration": "[Xe] 6s2 4f9"
+        "electronconfiguration": "[Xe] 6s2 4f9",
+        "valence": "",
+        "color": "#999999"
     },
     "Dy": {
         "name": "dysprosium",
@@ -789,7 +919,9 @@
         "period": "6",
         "group": "",
         "electronegativity": "1.22",
-        "electronconfiguration": "[Xe] 6s2 4f10"
+        "electronconfiguration": "[Xe] 6s2 4f10",
+        "valence": "",
+        "color": "#999999"
     },
     "Ho": {
         "name": "holmium",
@@ -801,7 +933,9 @@
         "period": "6",
         "group": "",
         "electronegativity": "1.23",
-        "electronconfiguration": "[Xe] 6s2 4f11"
+        "electronconfiguration": "[Xe] 6s2 4f11",
+        "valence": "",
+        "color": "#999999"
     },
     "Er": {
         "name": "erbium",
@@ -813,7 +947,9 @@
         "period": "6",
         "group": "",
         "electronegativity": "1.24",
-        "electronconfiguration": "[Xe] 6s2 4f12"
+        "electronconfiguration": "[Xe] 6s2 4f12",
+        "valence": "",
+        "color": "#999999"
     },
     "Tm": {
         "name": "thulium",
@@ -825,7 +961,9 @@
         "period": "6",
         "group": "",
         "electronegativity": "1.25",
-        "electronconfiguration": "[Xe] 6s2 4f13"
+        "electronconfiguration": "[Xe] 6s2 4f13",
+        "valence": "",
+        "color": "#999999"
     },
     "Yb": {
         "name": "ytterbium",
@@ -837,7 +975,9 @@
         "period": "6",
         "group": "",
         "electronegativity": "",
-        "electronconfiguration": "[Xe] 6s2 4f14"
+        "electronconfiguration": "[Xe] 6s2 4f14",
+        "valence": "",
+        "color": "#999999"
     },
     "Lu": {
         "name": "lutetium",
@@ -849,7 +989,9 @@
         "period": "6",
         "group": "3",
         "electronegativity": "1.27",
-        "electronconfiguration": "[Xe] 6s2 4f14 5d1"
+        "electronconfiguration": "[Xe] 6s2 4f14 5d1",
+        "valence": "",
+        "color": "#999999"
     },
     "Hf": {
         "name": "hafnium",
@@ -861,7 +1003,9 @@
         "period": "6",
         "group": "4",
         "electronegativity": "1.3",
-        "electronconfiguration": "[Xe] 6s2 4f14 5d2"
+        "electronconfiguration": "[Xe] 6s2 4f14 5d2",
+        "valence": "",
+        "color": "#999999"
     },
     "Ta": {
         "name": "tantalum",
@@ -873,7 +1017,9 @@
         "period": "6",
         "group": "5",
         "electronegativity": "1.5",
-        "electronconfiguration": "[Xe] 6s2 4f14 5d3"
+        "electronconfiguration": "[Xe] 6s2 4f14 5d3",
+        "valence": "",
+        "color": "#999999"
     },
     "W": {
         "name": "tungsten",
@@ -885,7 +1031,9 @@
         "period": "6",
         "group": "6",
         "electronegativity": "2.36",
-        "electronconfiguration": "[Xe] 6s2 4f14 5d4"
+        "electronconfiguration": "[Xe] 6s2 4f14 5d4",
+        "valence": "",
+        "color": "#999999"
     },
     "Re": {
         "name": "rhenium",
@@ -897,7 +1045,9 @@
         "period": "6",
         "group": "7",
         "electronegativity": "1.9",
-        "electronconfiguration": "[Xe] 6s2 4f14 5d5"
+        "electronconfiguration": "[Xe] 6s2 4f14 5d5",
+        "valence": "",
+        "color": "#999999"
     },
     "Os": {
         "name": "osmium",
@@ -909,7 +1059,9 @@
         "period": "6",
         "group": "8",
         "electronegativity": "2.2",
-        "electronconfiguration": "[Xe] 6s2 4f14 5d6"
+        "electronconfiguration": "[Xe] 6s2 4f14 5d6",
+        "valence": "",
+        "color": "#999999"
     },
     "Ir": {
         "name": "iridium",
@@ -921,7 +1073,9 @@
         "period": "6",
         "group": "9",
         "electronegativity": "2.20",
-        "electronconfiguration": "[Xe] 6s2 4f14 5d7"
+        "electronconfiguration": "[Xe] 6s2 4f14 5d7",
+        "valence": "",
+        "color": "#999999"
     },
     "Pt": {
         "name": "platinum",
@@ -933,7 +1087,9 @@
         "period": "6",
         "group": "10",
         "electronegativity": "2.28",
-        "electronconfiguration": "[Xe] 6s1 4f14 5d9"
+        "electronconfiguration": "[Xe] 6s1 4f14 5d9",
+        "valence": "",
+        "color": "#999999"
     },
     "Au": {
         "name": "gold",
@@ -945,7 +1101,9 @@
         "period": "6",
         "group": "11",
         "electronegativity": "2.54",
-        "electronconfiguration": "[Xe] 6s1 4f14 5d10"
+        "electronconfiguration": "[Xe] 6s1 4f14 5d10",
+        "valence": "",
+        "color": "#999999"
     },
     "Hg": {
         "name": "mercury",
@@ -957,7 +1115,9 @@
         "period": "6",
         "group": "12",
         "electronegativity": "2.00",
-        "electronconfiguration": "[Xe] 6s2 4f14 5d10"
+        "electronconfiguration": "[Xe] 6s2 4f14 5d10",
+        "valence": "",
+        "color": "#999999"
     },
     "Tl": {
         "name": "thalium",
@@ -969,7 +1129,9 @@
         "period": "6",
         "group": "13",
         "electronegativity": "1.62",
-        "electronconfiguration": "[Xe] 6s2 4f14 5d10 6p1"
+        "electronconfiguration": "[Xe] 6s2 4f14 5d10 6p1",
+        "valence": "",
+        "color": "#999999"
     },
     "Pb": {
         "name": "lead",
@@ -981,7 +1143,9 @@
         "period": "6",
         "group": "14",
         "electronegativity": "2.33",
-        "electronconfiguration": "[Xe] 6s2 4f14 5d10 6p2"
+        "electronconfiguration": "[Xe] 6s2 4f14 5d10 6p2",
+        "valence": "",
+        "color": "#999999"
     },
     "Bi": {
         "name": "bismuth",
@@ -993,7 +1157,9 @@
         "period": "6",
         "group": "15",
         "electronegativity": "2.02",
-        "electronconfiguration": "[Xe] 6s2 4f14 5d10 6p3"
+        "electronconfiguration": "[Xe] 6s2 4f14 5d10 6p3",
+        "valence": "",
+        "color": "#999999"
     },
     "Po": {
         "name": "polonium",
@@ -1005,7 +1171,9 @@
         "period": "6",
         "group": "16",
         "electronegativity": "2.0",
-        "electronconfiguration": "[Xe] 6s2 4f14 5d10 6p4"
+        "electronconfiguration": "[Xe] 6s2 4f14 5d10 6p4",
+        "valence": "",
+        "color": "#999999"
     },
     "At": {
         "name": "astatine",
@@ -1017,7 +1185,9 @@
         "period": "6",
         "group": "17",
         "electronegativity": "2.2",
-        "electronconfiguration": "[Xe] 6s2 4f14 5d10 6p5"
+        "electronconfiguration": "[Xe] 6s2 4f14 5d10 6p5",
+        "valence": "",
+        "color": "#999999"
     },
     "Rn": {
         "name": "radon",
@@ -1029,7 +1199,9 @@
         "period": "6",
         "group": "18",
         "electronegativity": "",
-        "electronconfiguration": "[Xe] 6s2 4f14 5d10 6p6"
+        "electronconfiguration": "[Xe] 6s2 4f14 5d10 6p6",
+        "valence": "",
+        "color": "#999999"
     },
     "Fr": {
         "name": "francium",
@@ -1041,7 +1213,9 @@
         "period": "7",
         "group": "1",
         "electronegativity": "0.7",
-        "electronconfiguration": "[Rn] 7s1"
+        "electronconfiguration": "[Rn] 7s1",
+        "valence": "",
+        "color": "#999999"
     },
     "Ra": {
         "name": "radium",
@@ -1053,7 +1227,9 @@
         "period": "7",
         "group": "2",
         "electronegativity": "0.9",
-        "electronconfiguration": "[Rn] 7s2"
+        "electronconfiguration": "[Rn] 7s2",
+        "valence": "",
+        "color": "#999999"
     },
     "Ac": {
         "name": "actinium",
@@ -1065,7 +1241,9 @@
         "period": "7",
         "group": "",
         "electronegativity": "1.1",
-        "electronconfiguration": "[Rn] 7s2 6d1"
+        "electronconfiguration": "[Rn] 7s2 6d1",
+        "valence": "",
+        "color": "#999999"
     },
     "Th": {
         "name": "thorium",
@@ -1077,7 +1255,9 @@
         "period": "7",
         "group": "",
         "electronegativity": "1.3",
-        "electronconfiguration": "[Rn] 7s2 6d2"
+        "electronconfiguration": "[Rn] 7s2 6d2",
+        "valence": "",
+        "color": "#999999"
     },
     "Pa": {
         "name": "protactinium",
@@ -1089,7 +1269,9 @@
         "period": "7",
         "group": "",
         "electronegativity": "1.5",
-        "electronconfiguration": "[Rn] 7s2 5f2 6d1"
+        "electronconfiguration": "[Rn] 7s2 5f2 6d1",
+        "valence": "",
+        "color": "#999999"
     },
     "U": {
         "name": "uranium",
@@ -1101,7 +1283,9 @@
         "period": "7",
         "group": "",
         "electronegativity": "1.38",
-        "electronconfiguration": "[Rn] 7s2 5f3 6d1"
+        "electronconfiguration": "[Rn] 7s2 5f3 6d1",
+        "valence": "",
+        "color": "#999999"
     },
     "Np": {
         "name": "neptunium",
@@ -1113,7 +1297,9 @@
         "period": "7",
         "group": "",
         "electronegativity": "1.36",
-        "electronconfiguration": "[Rn] 7s2 5f4 6d1"
+        "electronconfiguration": "[Rn] 7s2 5f4 6d1",
+        "valence": "",
+        "color": "#999999"
     },
     "Pu": {
         "name": "plutonium",
@@ -1125,7 +1311,9 @@
         "period": "7",
         "group": "",
         "electronegativity": "1.28",
-        "electronconfiguration": "[Rn] 7s2 5f6"
+        "electronconfiguration": "[Rn] 7s2 5f6",
+        "valence": "",
+        "color": "#999999"
     },
     "Am": {
         "name": "americium",
@@ -1137,7 +1325,9 @@
         "period": "7",
         "group": "",
         "electronegativity": "1.3",
-        "electronconfiguration": "[Rn] 7s2 5f7"
+        "electronconfiguration": "[Rn] 7s2 5f7",
+        "valence": "",
+        "color": "#999999"
     },
     "Cm": {
         "name": "curium",
@@ -1149,7 +1339,9 @@
         "period": "7",
         "group": "",
         "electronegativity": "1.3",
-        "electronconfiguration": "[Rn] 7s2 5f7 6d1"
+        "electronconfiguration": "[Rn] 7s2 5f7 6d1",
+        "valence": "",
+        "color": "#999999"
     },
     "Bk": {
         "name": "berkelium",
@@ -1161,7 +1353,9 @@
         "period": "7",
         "group": "",
         "electronegativity": "1.3",
-        "electronconfiguration": "[Rn] 7s2 5f9"
+        "electronconfiguration": "[Rn] 7s2 5f9",
+        "valence": "",
+        "color": "#999999"
     },
     "Cf": {
         "name": "californium",
@@ -1173,7 +1367,9 @@
         "period": "7",
         "group": "",
         "electronegativity": "1.3",
-        "electronconfiguration": "[Rn] 7s2 5f10"
+        "electronconfiguration": "[Rn] 7s2 5f10",
+        "valence": "",
+        "color": "#999999"
     },
     "Es": {
         "name": "einsteinium",
@@ -1185,7 +1381,9 @@
         "period": "7",
         "group": "",
         "electronegativity": "1.3",
-        "electronconfiguration": "[Rn] 7s2 5f11"
+        "electronconfiguration": "[Rn] 7s2 5f11",
+        "valence": "",
+        "color": "#999999"
     },
     "Fm": {
         "name": "fermium",
@@ -1197,7 +1395,9 @@
         "period": "7",
         "group": "",
         "electronegativity": "1.3",
-        "electronconfiguration": "[Rn] 7s2 5f12"
+        "electronconfiguration": "[Rn] 7s2 5f12",
+        "valence": "",
+        "color": "#999999"
     },
     "Md": {
         "name": "mendelevium",
@@ -1209,7 +1409,9 @@
         "period": "7",
         "group": "",
         "electronegativity": "1.3",
-        "electronconfiguration": "[Rn] 7s2 5f13"
+        "electronconfiguration": "[Rn] 7s2 5f13",
+        "valence": "",
+        "color": "#999999"
     },
     "No": {
         "name": "nobelium",
@@ -1221,7 +1423,9 @@
         "period": "7",
         "group": "",
         "electronegativity": "1.3",
-        "electronconfiguration": "[Rn] 7s2 5f14"
+        "electronconfiguration": "[Rn] 7s2 5f14",
+        "valence": "",
+        "color": "#999999"
     },
     "Lr": {
         "name": "lawrencium",
@@ -1233,7 +1437,9 @@
         "period": "7",
         "group": "3",
         "electronegativity": "",
-        "electronconfiguration": ""
+        "electronconfiguration": "",
+        "valence": "",
+        "color": "#999999"
     },
     "Rf": {
         "name": "rutherforium",
@@ -1245,7 +1451,9 @@
         "period": "7",
         "group": "4",
         "electronegativity": "",
-        "electronconfiguration": ""
+        "electronconfiguration": "",
+        "valence": "",
+        "color": "#999999"
     },
     "Db": {
         "name": "dubnium",
@@ -1257,7 +1465,9 @@
         "period": "7",
         "group": "5",
         "electronegativity": "",
-        "electronconfiguration": ""
+        "electronconfiguration": "",
+        "valence": "",
+        "color": "#999999"
     },
     "Sg": {
         "name": "seaborgium",
@@ -1269,7 +1479,9 @@
         "period": "7",
         "group": "6",
         "electronegativity": "",
-        "electronconfiguration": ""
+        "electronconfiguration": "",
+        "valence": "",
+        "color": "#999999"
     },
     "Bh": {
         "name": "bohrium",
@@ -1281,7 +1493,9 @@
         "period": "7",
         "group": "7",
         "electronegativity": "",
-        "electronconfiguration": ""
+        "electronconfiguration": "",
+        "valence": "",
+        "color": "#999999"
     },
     "Hs": {
         "name": "hassium",
@@ -1293,7 +1507,9 @@
         "period": "7",
         "group": "8",
         "electronegativity": "",
-        "electronconfiguration": ""
+        "electronconfiguration": "",
+        "valence": "",
+        "color": "#999999"
     },
     "Mt": {
         "name": "meitnerium",
@@ -1305,7 +1521,9 @@
         "period": "7",
         "group": "9",
         "electronegativity": "",
-        "electronconfiguration": ""
+        "electronconfiguration": "",
+        "valence": "",
+        "color": "#999999"
     },
     "Ds": {
         "name": "darmstadtium",
@@ -1317,7 +1535,9 @@
         "period": "7",
         "group": "10",
         "electronegativity": "",
-        "electronconfiguration": ""
+        "electronconfiguration": "",
+        "valence": "",
+        "color": "#999999"
     },
     "Rg": {
         "name": "roentgenium",
@@ -1329,7 +1549,9 @@
         "period": "7",
         "group": "11",
         "electronegativity": "",
-        "electronconfiguration": ""
+        "electronconfiguration": "",
+        "valence": "",
+        "color": "#999999"
     },
     "Cn": {
         "name": "copernicium",
@@ -1341,7 +1563,9 @@
         "period": "7",
         "group": "12",
         "electronegativity": "",
-        "electronconfiguration": ""
+        "electronconfiguration": "",
+        "valence": "",
+        "color": "#999999"
     },
     "Uut": {
         "name": "ununtrium",
@@ -1353,7 +1577,9 @@
         "period": "7",
         "group": "13",
         "electronegativity": "",
-        "electronconfiguration": ""
+        "electronconfiguration": "",
+        "valence": "",
+        "color": "#999999"
     },
     "Fl": {
         "name": "flerovium",
@@ -1365,7 +1591,9 @@
         "period": "7",
         "group": "14",
         "electronegativity": "",
-        "electronconfiguration": ""
+        "electronconfiguration": "",
+        "valence": "",
+        "color": "#999999"
     },
     "Uup": {
         "name": "ununpentium",
@@ -1377,7 +1605,9 @@
         "period": "7",
         "group": "15",
         "electronegativity": "",
-        "electronconfiguration": ""
+        "electronconfiguration": "",
+        "valence": "",
+        "color": "#999999"
     },
     "Lv": {
         "name": "livermorium",
@@ -1389,7 +1619,9 @@
         "period": "7",
         "group": "16",
         "electronegativity": "",
-        "electronconfiguration": ""
+        "electronconfiguration": "",
+        "valence": "",
+        "color": "#999999"
     },
     "Uus": {
         "name": "ununseptium",
@@ -1401,7 +1633,9 @@
         "period": "7",
         "group": "17",
         "electronegativity": "",
-        "electronconfiguration": ""
+        "electronconfiguration": "",
+        "valence": "",
+        "color": "#999999"
     },
     "Uuo": {
         "name": "ununoctium",
@@ -1413,6 +1647,8 @@
         "period": "7",
         "group": "18",
         "electronegativity": "",
-        "electronconfiguration": ""
+        "electronconfiguration": "",
+        "valence": "",
+        "color": "#999999"
     }
-}
+};
