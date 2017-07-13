@@ -1567,9 +1567,9 @@ var Elements = {
         "valence": "",
         "color": "#999999"
     },
-    "Uut": {
-        "name": "ununtrium",
-        "symbol": "Uut",
+    "Nh": {
+        "name": "nihonium",
+        "symbol": "Nh",
         "type": "unknown",
         "occurrence": "synthetic",
         "number": "113",
@@ -1595,13 +1595,13 @@ var Elements = {
         "valence": "",
         "color": "#999999"
     },
-    "Uup": {
-        "name": "ununpentium",
-        "symbol": "Uup",
+    "Mc": {
+        "name": "moscovium",
+        "symbol": "Mc",
         "type": "unknown",
         "occurrence": "synthetic",
         "number": "115",
-        "mass": "289",
+        "mass": "290",
         "period": "7",
         "group": "15",
         "electronegativity": "",
@@ -1623,9 +1623,9 @@ var Elements = {
         "valence": "",
         "color": "#999999"
     },
-    "Uus": {
-        "name": "ununseptium",
-        "symbol": "Uus",
+    "Ts": {
+        "name": "tennessine",
+        "symbol": "Ts",
         "type": "unknown",
         "occurrence": "synthetic",
         "number": "117",
@@ -1637,9 +1637,9 @@ var Elements = {
         "valence": "",
         "color": "#999999"
     },
-    "Uuo": {
-        "name": "ununoctium",
-        "symbol": "Uuo",
+    "Og": {
+        "name": "oganesson",
+        "symbol": "Og",
         "type": "unknown",
         "occurrence": "synthetic",
         "number": "118",
