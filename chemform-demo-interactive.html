@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <title>ChemForm.js Interactive Demo</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="chemform.js" defer="defer"></script>
+
+<script>
+    function cfConvert() {
+
+        $("#input").height(5);
+        $("#input").height($("#input").prop('scrollHeight'));
+
+        var ihtml = $("#input").val().replace(/(\r\n|\r|\n)/g,"<br />");     // preserve linebreaks from textarea
+        var newhtml = chemform(ihtml);
+
+        $("#output").html(newhtml);
+    }
+
+  document.addEventListener("DOMContentLoaded", cfConvert);
+
+</script>
+</head>
+<body>
+
+<h3>Enter some plaintext in the textbox, and observe the output below.</h3>
+
+<textarea id="input" oninput="cfConvert()" style="width:90%;overflow:visible;">
+Here are some commonly encoutered chemical formulas: CO2, H2O, H2SO4.
+
+Here are some chemical equations:
+
+Ba(NO3)2 (aq) + Na2SO4 (aq) ------> 2NaNO3 (aq) + BaSO4 (s)
+
+HCl (g) + H2O(l) <===> H3O(+) (aq) + Cl(-) (aq)
+
+Here are some polyatomic ions: [NH4]+, [NO3]-, CO3(2-).
+We can combine them into salts, for instance:
+[NH4]+ [NO3]- or NH4(+) NO3(-).
+
+Specifying an uncharged (neutral) element is easy: Au(0).
+
+Numbers by themselves are fine, if we need to mention 2.5 moles or 10 grams or whatever.
+
+Hyphens with numbers seem to be OK also:
+
+- The reactions were all conducted at 80-100&deg; for 1-2 hours.
+- The name of this compound is 2-methylcyclohexanone.
+- A different compound would be (2R,3S)-1,2,3-butanetriol.
+
+</textarea>
+
+<div id="output"></div>
+
+
+
+</body>
+</html>
