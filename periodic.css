@@ -5,16 +5,72 @@
  * styles largely copied from Wikipedia periodic table
 */
 
+* {
+    box-sizing: border-box;
+}
+
+table {
+    table-layout: fixed;
+}
+
 td {
+    width: 20px;
+    height: 20px;
     border: 0px none;
-    width: 50px;
-    height: 50px;
+    text-align: center;
 }
 
 .element {
+    width: 60px;
+    height: 60px;
     background: #eeeeee;
     border: 2px solid transparent;
-    text-align: center;
+    position: relative;
+    margin: 0 0 0 0;
+}
+.element-lg {
+    width: 80px;
+    height: 80px;
+}
+.element-sm {
+    width: 40px;
+    height: 40px;
+}
+
+.symbol {
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Verdana, sans-serif;
+    opacity: 0.5;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    line-height: 1em;
+}
+.number {
+    display: block;
+    text-align: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+.name {
+    display: block;
+    font-size: 0.8em;
+    margin: 0 0 0 0;
+    margin-bottom: 0.25em;
+}
+.mass {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.8em;
+    margin: 0 0 0 0;
 }
 
 /* element type */
