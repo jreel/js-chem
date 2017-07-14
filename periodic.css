@@ -1,0 +1,61 @@
+/*
+ * apply styles based on element properties,
+ * as listed in the JSON data (elements.js)
+ *
+ * styles largely copied from Wikipedia periodic table
+*/
+
+td {
+    border: 0px none;
+    width: 50px;
+    height: 50px;
+}
+
+.element {
+    background: #eeeeee;
+    border: 2px solid transparent;
+    text-align: center;
+}
+
+/* element type */
+.alkali-metal {
+    background: #ff6666;
+}
+.alkaline-earth-metal {
+    background: #ffdead;
+}
+.lanthanide {
+    background: #ffbfff;
+}
+.actinide {
+    background: #ff99cc;
+}
+.transition-metal {
+    background: #ffc0c0;
+}
+.post-transition-metal {
+    background: #cccccc;
+}
+.metalloid {
+    background: #cccc99;
+}
+.polyatomic-nonmetal {
+    background: #a1ffc3;
+}
+.diatomic-nonmetal {
+    background: #e7ff8f;
+}
+.noble-gas {
+    background: #c0ffff;
+}
+
+/* element occurrence */
+.primordial {
+    border: 2px solid #8811ff;
+}
+.from-decay {
+    border: 2px dashed #773300;
+}
+.synthetic {
+    border: 2px dotted #4499ff;
+}
