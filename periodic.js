@@ -43,7 +43,6 @@
  *      - 'phase'       border color by state of matter at STP
  *      - 'block'       grouped border by block
  *      - 'type'        grouped border by type
- *      - 'bw'          black border (white border with black text, overrides any other coloring options)
  *
  *
  *
@@ -60,6 +59,8 @@ function periodicTable(targetDiv, options) {
     options = options || {};
     options.size = options.size || 'typical';
     options.info = options.info || ['symbol'];
+    options.shade = options.shade || 'type';
+    options.border = options.border || 'occurrence';
 
     ptCount++;
 
@@ -194,10 +195,11 @@ function periodicTable(targetDiv, options) {
             
             elCell.classList.add('element');
             
-            if ((options.shade == "bw")||(options.border == "bw")) {
+            if (options.shade == "bw") {
                 // black-and-white option overrides any other coloring options
                 elCell.classList.add('bw');
-            } else {
+            } 
+            else {
             elCell.classList.add(el.type);
             elCell.classList.add(el.occurrence);
             }
