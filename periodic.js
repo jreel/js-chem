@@ -36,12 +36,14 @@
  *      - 'type'        colors by element type (as defined in JSON)
  *      - 'block'       colors by s-, p-, d-, or f-block
  *      - 'electroneg'  color as a gradient based on electronegativity value
+ *      - 'bw'          white background with black text (overrides any other coloring options)
  *
  *      border:
  *      - 'occurrence'  border color by occurrence (as defined in JSON)
  *      - 'phase'       border color by state of matter at STP
  *      - 'block'       grouped border by block
  *      - 'type'        grouped border by type
+ *      - 'bw'          black border (white border with black text, overrides any other coloring options)
  *
  *
  *
@@ -189,10 +191,16 @@ function periodicTable(targetDiv, options) {
                 elCell.appendChild(mass);
                 elCell.classList.remove('element-sm');
             }
-
+            
             elCell.classList.add('element');
+            
+            if ((options.shade == "bw")||(options.border == "bw")) {
+                // black-and-white option overrides any other coloring options
+                elCell.classList.add('bw');
+            } else {
             elCell.classList.add(el.type);
             elCell.classList.add(el.occurrence);
+            }
         }
     }
 
@@ -206,6 +214,8 @@ function periodicTable(targetDiv, options) {
         document.getElementById("t" + ptCount + "r7c3").classList.add('actinide');
         document.getElementById("t" + ptCount + "r10c2").innerHTML = "**";
     }
+    
+   
 
 }
 
