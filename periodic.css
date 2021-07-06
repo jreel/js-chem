@@ -73,6 +73,14 @@ td {
     margin: 0 0 0 0;
 }
 
+/* black-and-white option; overrides any other coloring */
+.bw {
+    background: #ffffff !important;
+    color: black !important;
+    opacity: 1.0 !important;
+    border: 2px solid black !important;
+}
+
 /* element type */
 .alkali-metal {
     background: #ff6666;
