@@ -207,14 +207,16 @@ function periodicTable(targetDiv, options) {
     }
 
     // some clean-up based on various layouts
-    if ((options.size == "typical") && (options.shade != "bw")) {
+    if ((options.size == "typical")) {
         // markers for lanthinides/actinides
         document.getElementById("t" + ptCount + "r6c3").innerHTML = "*";
-        document.getElementById("t" + ptCount + "r6c3").classList.add('lanthanide');
         document.getElementById("t" + ptCount + "r9c2").innerHTML = "*";
         document.getElementById("t" + ptCount + "r7c3").innerHTML = "**";
-        document.getElementById("t" + ptCount + "r7c3").classList.add('actinide');
         document.getElementById("t" + ptCount + "r10c2").innerHTML = "**";
+        if (options.shade != "bw") {
+            document.getElementById("t" + ptCount + "r6c3").classList.add('lanthanide');
+            document.getElementById("t" + ptCount + "r7c3").classList.add('actinide');
+        }
     }
     
    
