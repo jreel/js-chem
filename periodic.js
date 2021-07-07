@@ -207,7 +207,7 @@ function periodicTable(targetDiv, options) {
     }
 
     // some clean-up based on various layouts
-    if (options.size == "typical") {
+    if ((options.size == "typical") && (options.shade != "bw")) {
         // markers for lanthinides/actinides
         document.getElementById("t" + ptCount + "r6c3").innerHTML = "*";
         document.getElementById("t" + ptCount + "r6c3").classList.add('lanthanide');
